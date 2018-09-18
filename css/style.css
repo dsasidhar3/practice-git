@@ -1,3 +1,29 @@
-body{background-color: grey;}
-blockquote{border: 1px solid white;text-align: center;margin-left: 0;}
-div{width: 500px;margin:auto;}
+.wrap
+{
+	width: 80%;
+	margin:auto;
+	background-color: grey;
+	overflow: hidden;
+	
+}
+
+blockquote
+{
+	border: 1px solid white;
+	text-align: center;
+	margin-left: 15px;
+}
+.main
+{
+	width: 65%;
+	background-color: yellow;
+	float: left; 
+}
+
+aside
+{
+	width: 35%;
+	background-color: red;
+	float: right;
+
+}
